@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Fiesta - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5f5; /* Very pale pink background */
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, rgba(156, 175, 136, 0.8), rgba(120, 134, 107, 0.8)), url('./images/fiesta_image.jpeg') no-repeat center/cover; /* Sage green gradient with image */
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+        }
+        main {
+            padding: 3rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 3rem;
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.5rem;
+            margin: 1rem auto;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, background-color 0.3s;
+            max-width: 500px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            background-color: #f1ecec; /* Light complementary pink */
+        }
+        .card h3 {
+            margin: 0 0 0.5rem;
+            color: #78866b; /* Sage green */
+        }
+        .card p {
+            margin: 0 0 1rem;
+            font-size: 0.95rem;
+            text-align: center;
+        }
+        .card a {
+            text-decoration: none;
+            color: #9caf88; /* Lighter sage green */
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        .card a:hover {
+            color: #78866b;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #9caf88;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Data Fiesta</h1>
+        <p>An exploration of data, analytics, and machine learning</p>
+    </header>
+    <main>
+        <section>
+            <h2 style="text-align: center;">About Me</h2>
+            <div class="card">
+                <h3>Hello! I'm Nkechi</h3>
+                <p>I'm a data scientist passionate about uncovering patterns in data, crafting innovative solutions, and driving impactful decisions through machine learning.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align: center;">My Projects</h2>
+            <div class="card">
+                <h3>Project 1: [Project Title]</h3>
+                <p>[Brief description of your project and its impact]</p>
+                <a href="[Project Link]" target="_blank">Explore Project</a>
+            </div>
+            <div class="card">
+                <h3>Project 2: [Project Title]</h3>
+                <p>[Brief description of your project and its impact]</p>
+                <a href="[Project Link]" target="_blank">Explore Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Data Fiesta | Designed by <a href="https://github.com/nwg15">Nkechi G</a></p>
+    </footer>
+</body>
+</html>
+
